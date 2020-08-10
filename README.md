@@ -8,7 +8,9 @@ If you're getting started with 100 Days of Code, also be sure to check out our [
 
 
 
-#### What technologies you want to learn
+
+
+#### What technologies I want to learn
 
 * React with Gatsby framework.
 * Clean code book read.
@@ -18,7 +20,8 @@ If you're getting started with 100 Days of Code, also be sure to check out our [
 * Python notebooks for data science.
 
 
-#### What projects you want to complete
+#### What projects I want to complete
 * Escuela APP for student rates.
+    * D3.js graphics with react
 * Solve interview problems in js and python
 
