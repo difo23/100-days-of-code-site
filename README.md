@@ -8,8 +8,6 @@ If you're getting started with 100 Days of Code, also be sure to check out our [
 
 
 
-
-
 #### What technologies I want to learn
 
 * React with Gatsby framework.
