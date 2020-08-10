@@ -1,5 +1,5 @@
 ---
-title: "My first Chrome extension"
+title: "Code website built using Gatsby"
 day: "1"
 publishDate: "2020-08-09"
 thumbnailImage: "../images/day-1.png"
