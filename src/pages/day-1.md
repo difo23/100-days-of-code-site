@@ -1,15 +1,13 @@
 ---
-title: "My first Chrome extension"
+title: "Code website built using Gatsby"
 day: "1"
-publishDate: "2020-05-24"
+publishDate: "2020-08-09"
 thumbnailImage: "../images/day-1.png"
-shareText: "I built a Chrome extension! 😊"
-hashtags: ["100DaysOfCode", "Chrome"]
+shareText: "Code website built using Gatsby. 😊"
+hashtags: ["100DaysOfCode", "Gastby",'React', 'Netlify']
 draft: false
 ---
 
-I explored the Chrome APIs today and built a really simple extension that shows a random news headline from Quartz.
+I explored Gatsby framework based on React and built a 100 of days of code website, deploy it in Netlify, I learn a lot of some technologies that seem me very interesting (this site was created by @brettmstevens7).
 
-It took a lot of trial and error, but I successfully figured out how to render a headline in the empty browser page and how to use the browser `fetch` API.
-
-You can check out <a href="https://doggiedesigner.com/wp-content/uploads/2018/07/Bernese-Mountain-Dog-1.jpg" target="_blank">my extension on GitHub</a>.
+You can check out <a href="https://www.software.com/src/how-to-set-up-your-own-personal-website-for-100-days-of-code" target="_blank">100 Days of Code website built using Gatsby</a> <a href= 'https://github.com/brettmstevens7/100-days-of-code-site'> by brettmstevens7 </a> 
