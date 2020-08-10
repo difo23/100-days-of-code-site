@@ -1,5 +1,5 @@
 <h1 align="center">
-  100 Days of Code site template
+  100 Days of Code site template 
 </h1>
 
 A template that you can fork and make your own as part of completing the 100 Days of Code Challenge. [Here is a preview](https://bretts-100-days-of-code.netlify.app/) of what the site looks like. [Here are the steps](https://www.software.com/src/how-to-set-up-your-own-personal-website-for-100-days-of-code) to add logs and deploy your site.
