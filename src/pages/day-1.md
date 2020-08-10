@@ -12,4 +12,4 @@ I explored the Chrome APIs today and built a really simple extension that shows 
 
 It took a lot of trial and error, but I successfully figured out how to render a headline in the empty browser page and how to use the browser `fetch` API.
 
-You can check out <a href="https://doggiedesigner.com/wp-content/uploads/2018/07/Bernese-Mountain-Dog-1.jpg" target="_blank">my extension on GitHub</a>.
+You can check out <a href="https://difo23the100daysofcode.netlify.app/" target="_blank">100 Days of Code website built using Gatsby.</a>.
