@@ -8,8 +8,6 @@ hashtags: ["100DaysOfCode", "Contex",'React', 'Hooks', 'useContext', 'useHistory
 draft: false
 ---
 
-# Simple LoginApp with useContext hooks.
-
 
 ## Notes:
 _____________________________________________   
