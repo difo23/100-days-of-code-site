@@ -4,7 +4,7 @@ day: "3"
 publishDate: "2020-08-11"
 thumbnailImage: "../images/day-3.png"
 shareText: "Learning about useContext hooks. 😊"
-hashtags: ["100DaysOfCode", "Contex",'React', 'Hooks', 'useContext', 'useHistory', 'Reac_Router_Dom', 'useState']
+hashtags: ["100DaysOfCode", "Context",'React', 'Hooks', 'useContext', 'useHistory', 'Reac_Router_Dom', 'useState']
 draft: false
 ---
 
