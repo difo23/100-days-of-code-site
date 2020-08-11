@@ -2,7 +2,7 @@
 title: " Simple app to Likes comments with React hooks"
 day: "2"
 publishDate: "2020-08-10"
-thumbnailImage: "../images/day-2.jpg"
+thumbnailImage: "../images/day-2.png"
 shareText: "React hooks using useEffect and useState. 😊"
 hashtags: ["100DaysOfCode", "Hooks",'React', 'Github page', 'useState', 'useEffect']
 draft: false
