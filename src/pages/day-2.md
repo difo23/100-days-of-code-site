@@ -23,4 +23,4 @@ To use useState and useEffect hooks for solution.
 
 [https://difo23.github.io/hooks-app/] (GitHub page) [https://github.com/difo23/hooks-app] (GitHub Repo)
 
-You can check out <a href="[https://difo23.github.io/hooks-app/" target="_blank"> Github page </a> code <a href= 'https://github.com/difo23/hooks-app'> by @difo23 </a> 
+You can check out <a href="https://difo23.github.io/hooks-app/" target="_blank"> Github page </a> code <a href= 'https://github.com/difo23/hooks-app'> by @difo23 </a> 
