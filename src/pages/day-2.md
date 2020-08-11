@@ -1,5 +1,5 @@
 ---
-title: " Simple app to Likes comments with React hooks"
+title: " App LikesComments with React-hooks"
 day: "2"
 publishDate: "2020-08-10"
 thumbnailImage: "../images/day-2.png"
