@@ -9,7 +9,7 @@ draft: false
 ---
 
 ## Day 2 #the100daysofcode: Simple app to Likes comments with React hooks.
-`August 10, 2020''
+`August 10, 2020`
 
 ### Problem:
 'Like App' this is a simple app that able to count the likes do by user in comments.
