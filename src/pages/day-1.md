@@ -8,6 +8,6 @@ hashtags: ["100DaysOfCode", "Gastby",'React', 'Netlify']
 draft: false
 ---
 
-I explored Gatsby framework based on React and built a 100 of days of code website, deploy it in Netlify, I learn a lot of some technologies that seem me very interesting (this site was created by @brettmstevens7). You can to see how do this portfolio with https://www.johnsmilga.com and his YouTube channel https://youtu.be/asB-dUwpH4Y
+I explored Gatsby framework based on React and built a 100 of days of code website, deploy it in Netlify, I learn a lot of some technologies that seem me very interesting (this site was created by @brettmstevens7). 
 
 You can check out <a href="https://www.software.com/src/how-to-set-up-your-own-personal-website-for-100-days-of-code" target="_blank">100 Days of Code website built using Gatsby</a> <a href= 'https://github.com/brettmstevens7/100-days-of-code-site'> by brettmstevens7 </a> 
