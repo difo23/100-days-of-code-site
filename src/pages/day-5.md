@@ -11,7 +11,7 @@ draft: false
 
 ## Notes:
 _____________________________________________   
-* Strapi API REST config and deployed.
+* Strapi API REST config and deploy.
 * Conect portfolio project with Strapi API.
 
 
