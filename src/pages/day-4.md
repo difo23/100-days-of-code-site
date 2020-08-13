@@ -1,6 +1,6 @@
 ---
 title: "Build a web 'portafolio' using Gatsby"
-day: "3"
+day: "4"
 publishDate: "2020-08-12"
 thumbnailImage: "../images/day-4.png"
 shareText: "Learning about Gatsby framework."
