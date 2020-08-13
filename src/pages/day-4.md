@@ -14,10 +14,10 @@ _____________________________________________
 * Gatsby config file.
 * Project organization with Gatsby framework.
 
-## Build web 'portfolio':
+## Build web 'portfolio': 
 ____________________________________________
 
 #### Description: 
 The web portfolio is a very good place for a software developer shows yours more recently works and can blog yours experiences. You can to see how do this portfolio with https://www.johnsmilga.com and his YouTube channel https://youtu.be/asB-dUwpH4Y 
 
-You can check out <a href="https://github.com/difo23/portafolio32" target="_blank"> Github page </a> code <a href= 'https://github.com/difo23'> by @difo23 </a> 
+You can check out <a href="https://lizandrojramirez.netlify.app/" target="_blank"> Github page </a> code <a href= 'https://github.com/difo23'> by @difo23 </a> 
