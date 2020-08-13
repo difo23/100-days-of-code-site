@@ -68,4 +68,4 @@ Later you need to wrap the father of all componentes between `UserContext.Provid
 
 >`const {user, setUser} = useContext(UserContext);`
 
-You can check out <a href="https://difo23.github.io/hooks-app/" target="_blank"> Github page </a> code <a href= 'https://github.com/difo23/hooks-app'> by @difo23 </a> 
+You can check out <a href='https://github.com/difo23/hooks-app' target="_blank"> Github page </a> code <a href= 'https://github.com/difo23/hooks-app'> by @difo23 </a> 
