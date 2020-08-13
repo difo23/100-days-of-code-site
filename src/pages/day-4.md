@@ -12,7 +12,7 @@ draft: false
 ## Notes:
 _____________________________________________   
 * Gatsby config file.
-* Projecto organization with Gatsby framework.
+* Project organization with Gatsby framework.
 
 ## Build web 'portafolio':
 ____________________________________________
