@@ -1,6 +1,6 @@
 ---
 title: "Use fast API REST with Strapi"
-day: "4"
+day: "5"
 publishDate: "2020-08-13"
 thumbnailImage: "../images/day-5.png"
 shareText: "Learning about Strapi API."
