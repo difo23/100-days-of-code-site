@@ -1,5 +1,5 @@
 ---
-title: "Code website built using Gatsby"
+title: " Built Webside 100daysofcode using Gatsby"
 day: "1"
 publishDate: "2020-08-09"
 thumbnailImage: "../images/day-1.png"
