@@ -1,5 +1,5 @@
 ---
-title: "Solving interview problems with Rust"
+title: "Solving interview problem with Rust"
 day: "6"
 publishDate: "2020-08-14"
 thumbnailImage: "../images/day-6.png"
