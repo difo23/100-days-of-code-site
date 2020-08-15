@@ -20,7 +20,7 @@ This problem was recently asked by **AirBNB**: Given a list of sorted numbers, a
 Here's an example and some starter code:   
  
 `closest_nums([1, 3, 7, 8, 9], 3, 5)`  
-`result --> [7,3,9]`
+`result --> [7,3,8]`
 
 ### Step 1: Install Rust in Ubuntu.
 
