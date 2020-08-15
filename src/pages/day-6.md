@@ -8,7 +8,7 @@ hashtags: ["100DaysOfCode",'Rust','K_closest_pivot','Sliding_Windows', 'Intervie
 draft: false
 ---
 
-# Day 6/100 Solving interview problems with Rust
+# Day 6/100 Solving interview problem with Rust
 
 ## Problem k The Closest elements with pivot:
 
