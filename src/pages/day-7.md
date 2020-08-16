@@ -10,7 +10,7 @@ draft: false
 
 # Day 7/100 I'm creating report card list for personal project with React hooks
 
-## Problem create report card for APP 'Escuela':
+## Problem: create report card for APP 'Escuela':
 
 Date: ` 15/08/2020`
 
