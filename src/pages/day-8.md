@@ -94,9 +94,8 @@ intent('What does this app do?', 'What can I do here?',
 const API_KEY = "8606abb9387ea5abcdaba69c4b0f99e8";
 let  cityWeathers = [];
 
-// News by Source
+// weather by city  Source
 intent('Give me the weather from $(source* (.*))', (p) => {
-    //let NEWS_API_URL = `https://newsapi.org/v2/top-headlines?apiKey=${API_KEY}`;
     
     
     let city = 'london';
