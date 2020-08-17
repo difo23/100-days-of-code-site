@@ -1,5 +1,5 @@
 ---
-title: "Simple Weatherapp @alanvoiceai and reacthooks"
+title: "Simple Weatherapp Alan and reacthooks"
 day: "8"
 publishDate: "2020-08-15"
 thumbnailImage: "../images/day-8.png"
