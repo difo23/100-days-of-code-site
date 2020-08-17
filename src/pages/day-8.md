@@ -176,4 +176,4 @@ export const useData = () => {
 
 
 
-You can check  <a href="https://github.com/difo23/WeatherAppFreecodeCamp/tree/weather_alan_ai" target="_blank"> code </a> @difo23 
+You can check <a href="https://nervous-stonebraker-57fa50.netlify.app/" target="_blank"> demo </a>  <a href="https://github.com/difo23/WeatherAppFreecodeCamp/tree/weather_alan_ai" target="_blank"> code </a> @difo23 
