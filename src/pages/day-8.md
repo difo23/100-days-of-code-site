@@ -11,6 +11,10 @@ draft: false
 # Day 8/100 Simple weather APP using Alan AI and react hooks.  
 
 
+
+## Description:
+Simple weather app to use AlanAI to query a weather API, each query is listed in the main interface. The usage commands are 'give me the weather from (city)'. The circular button on the bottom right activates Alan's voice commands, you need to have the microphone active.
+
 ### Step #1: Get the weather apy from:
 
 >>>[Open Weather Map](https://home.openweathermap.org )  
