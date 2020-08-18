@@ -33,12 +33,13 @@ const GridLayout = ({ data, siteTitle }) => {
                         {data.map((d, i) => (
                             <Grid key={i} item sm={4} xs={12}>
                                 <DayThumbnail data={d} />
+
                             </Grid>
                         ))}
                     </Grid>
                 ) : (
-                    <Typography variant="">No projects logged yet. Check back later.</Typography>
-                )}
+                        <Typography variant="">No projects logged yet. Check back later.</Typography>
+                    )}
             </div>
         </div>
     );

@@ -1,6 +1,6 @@
 ---
 title: "Online Resume with Reactjs and Heroku"
-day: 10
+day: "10"
 publishDate: "2020-08-18"
 thumbnailImage: "../images/day-10.png"
 shareText: "Day 10/100 create online resume with Reactjs and Heroku "
