@@ -31,7 +31,7 @@ const GridLayout = ({ data, siteTitle }) => {
                 {data.length > 0 ? (
                     <Grid container spacing={4}>
                         {data.map((d, i) => (
-                            <Grid key={i+1} item sm={4} xs={12}>
+                            <Grid key={i} item sm={4} xs={12}>
                                 <DayThumbnail data={d} />
 
                             </Grid>
