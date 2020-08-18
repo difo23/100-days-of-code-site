@@ -1,5 +1,5 @@
 ---
-title: "VHDL development environment (low cost)🤑💰"
+title: "VHDL IDE (lowcost)🤑💰"
 day: "9"
 publishDate: "2020-08-17"
 thumbnailImage: "../images/day-9.png"
