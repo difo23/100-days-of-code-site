@@ -12,4 +12,5 @@ draft: false
 
 This is a very simple project to learn how to create a resume with reactjs and launch in heroku.  
 
-You can check <a href="https://lizandrocv.herokuapp.com/" target="_blank"> my page </a> <a href="https://github.com/sbayd/react-cv-template" target="_blank"> template code </a> by @sbayd  
+You can check <a href="https://lizandrocv.herokuapp.com/" target="_blank"> my page </a>    
+ <a href="https://github.com/sbayd/react-cv-template" target="_blank"> template code </a> by @sbayd    
