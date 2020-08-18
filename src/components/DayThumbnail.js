@@ -65,7 +65,7 @@ const DialogTitle = props => {
                         </IconButton>
                     </>
                 ) : null}
-                <Link to={`day-${day}`}>
+                <Link to={`Day ${day}`}>
                     <IconButton aria-label="open-in-new" className={classes.button}>
                         <OpenInNewIcon />
                     </IconButton>
