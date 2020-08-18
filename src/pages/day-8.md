@@ -1,7 +1,7 @@
 ---
 title: "Simple Weatherapp Alan and reacthooks"
 day: "8"
-publishDate: "2020-08-15"
+publishDate: "2020-08-16"
 thumbnailImage: "../images/day-8.png"
 shareText: "Day 8/100 simple weather APP using @alanvoiceai platform and react hooks."
 hashtags: ["100DaysOfCode",'React','Hooks','API', 'alanvoiceai', 'weather', 'AlanAI']
