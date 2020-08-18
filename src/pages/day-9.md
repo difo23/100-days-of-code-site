@@ -8,8 +8,6 @@ hashtags: ["100DaysOfCode",'VHDL','GHDL','GTKWave', 'FPGA', 'IDE']
 draft: false
 ---
 
-# Day /100 Simple weather APP using Alan AI and react hooks.  
-
 
 
 ## Description:
