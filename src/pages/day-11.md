@@ -10,7 +10,7 @@ draft: false
 
 ## Description:
 
-Today I have dedicated myself to doing a rebuild to an old Rest API, this time I decided to use a VSC extension called REST client instead of the reliable Postman. I don't think this extension will replace the functionalities and level of documentation that Postman provides, but the truth is that it is very easy to test your API without leaving VSC.  
+Today I have dedicated myself to doing a rebuild an old API Rest , this time I decided to use a VSC extension called REST client instead of the reliable Postman. I don't think this extension will replace the functionalities and level of documentation that Postman provides, but the truth is that it is very easy to test your API without leaving VSC.  
 
 
 ### [REST Client:](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) 
