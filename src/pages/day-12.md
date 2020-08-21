@@ -3,14 +3,14 @@ title: "MongoDB and Algorithms"
 day: "12"
 publishDate: "2020-08-20"
 thumbnailImage: "../images/day-12.png"
-shareText: "Day 12/100 Rebuild an old mongoDB database and write some blogs about Big O and Sliding Windows."
+shareText: "Day 12/100 Rebuild an old mongo database and write some blogs about Big O and Sliding Windows."
 hashtags: ["100DaysOfCode",'bigO','algorithms','slidingwindows', 'nosql','robo3t', 'mongodb', 'blogs']
 draft: false
 ---
 
 ## Description:
 
-Rebuild an old mongoDB database and write some blogs about Big O and Sliding Windows.
+Rebuild an old mongo database and write some blogs about Big O and Sliding Windows.
 
 ### Big O:
 
