@@ -1,5 +1,5 @@
 ---
-title: "Reconstruction of the Escuela APP"
+title: " Rebuilding the *ESCUELA* application"
 day: "13"
 publishDate: "2020-08-21"
 thumbnailImage: "../images/day-13.png"
