@@ -1,5 +1,5 @@
 ---
-title: "Creation and elimination of report card"
+title: "Reconstruction of the Escuela APP"
 day: "13"
 publishDate: "2020-08-21"
 thumbnailImage: "../images/day-13.png"
