@@ -25,7 +25,7 @@ Collaboratory, or Colab, allows you to write and run Python code in a browser, w
 It doesn't matter if you are a student, data scientist or AI researcher, Colab makes your job easier. Watch this [introductory video](https://www.youtube.com/watch?v=inN8seMm7UI) about Colab to learn more about it, or start using it below.
 
 
-Here is an introduction of my authorship to functionalities that I find interesting to have on hand in Google Colaboratory. [Notebook](https://github.com/difo23/BitacorasDataScienceDominicano/blob/master/T0_Intro_Colab_BitacorasDSDominicano.ipynb)
+Here is an introduction of my authorship to functionalities that I find interesting to have on hand in Google Colaboratory. [Notebook](https://github.com/difo23/BitacorasDataScienceDominicano)
 
  ### [The Layers architectural pattern:](https://developerdecision.blogspot.com/2020/08/patrones-de-diseno-en-arquitectura-de.html)
 
@@ -35,4 +35,4 @@ The software architecture pattern known as "Layers" focuses on providing a set o
 
 
 
-You can check [my blog](https://developerdecision.blogspot.com/2020/08/patrones-de-diseno-en-arquitectura-de.html) and more Notebooks in <a href="https://github.com/difo23/BitacorasDataScienceDominicano/blob/master/T0_Intro_Colab_BitacorasDSDominicano.ipynb" target="_blank"> my Github </a>  by @difo23
+You can check [my blog](https://developerdecision.blogspot.com/2020/08/patrones-de-diseno-en-arquitectura-de.html) and more Notebooks in <a href="https://github.com/difo23/BitacorasDataScienceDominicano" target="_blank"> my Github </a>  by @difo23
