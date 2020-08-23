@@ -35,4 +35,7 @@ The software architecture pattern known as "Layers" focuses on providing a set o
 
 
 
-You can check [my blog](https://developerdecision.blogspot.com/2020/08/patrones-de-diseno-en-arquitectura-de.html) and more Notebooks in <a href="https://github.com/difo23/BitacorasDataScienceDominicano" target="_blank"> my Github </a>  by @difo23
+You can check [my blog](https://developerdecision.blogspot.com/2020/08/patrones-de-diseno-en-arquitectura-de.html) and more Notebooks in <a href="htt8
+
+
+ps://github.com/difo23/BitacorasDataScienceDominicano" target="_blank"> my Github </a>  by @difo2312
