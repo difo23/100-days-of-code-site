@@ -7,7 +7,7 @@ import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import TwitterIcon from "@material-ui/icons/Twitter";
-
+import { FaDev } from 'react-icons/fa';
 
 
 const useStyles = makeStyles(theme => ({
@@ -73,9 +73,9 @@ const Header = ({ avatar, siteDescription, twitterUrl }) => {
                                 href={"https://dev.to/difo23"}
                                 target="_blank"
                                 rel="noreferrer"
+                                startIcon={<FaDev />}
 
                             >
-                                <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Lizandro 's DEV Profile" height="25" width="25" />
                                 <strong>Follow me on Dev</strong>
                             </Button>
                         </div>
