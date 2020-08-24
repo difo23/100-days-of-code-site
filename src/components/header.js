@@ -58,6 +58,9 @@ const Header = ({ avatar, siteDescription, twitterUrl }) => {
                         >
                             Follow me on Twitter
                         </Button>
+                        <a href="https://dev.to/difo23">
+                            <i class="fab fa-dev" title="difo23's DEV Profile"></i>
+                        </a>
                     </Grid>
                 </Grid>
             </div>
