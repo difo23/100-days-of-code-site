@@ -48,19 +48,22 @@ const Header = ({ avatar, siteDescription, twitterUrl }) => {
                         </div>
                     </Grid>
                     <Grid item>
-                        <Button
-                            variant="text"
-                            color="default"
-                            href={twitterUrl}
-                            target="_blank"
-                            rel="noreferrer"
-                            startIcon={<TwitterIcon />}
-                        >
-                            Follow me on Twitter
+                        <div>
+
+                            <Button
+                                variant="text"
+                                color="default"
+                                href={twitterUrl}
+                                target="_blank"
+                                rel="noreferrer"
+                                startIcon={<TwitterIcon />}
+                            >
+                                Follow me on Twitter
                         </Button>
-                        <a href="https://dev.to/difo23">
-                            <i class="fab fa-dev" title="difo23's DEV Profile"></i>
-                        </a>
+                            <a href="https://dev.to/difo23">
+                                <i class="fab fa-dev" title="difo23's DEV Profile"></i>
+                            </a>
+                        </div>
                     </Grid>
                 </Grid>
             </div>
