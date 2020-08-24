@@ -7,6 +7,8 @@ import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import TwitterIcon from "@material-ui/icons/Twitter";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDev } from '@fortawesome/free-solid-svg-icons'
 
 const useStyles = makeStyles(theme => ({
     avatarCt: {
@@ -61,7 +63,8 @@ const Header = ({ avatar, siteDescription, twitterUrl }) => {
                                 Follow me on Twitter
                         </Button>
                             <a href="https://dev.to/difo23">
-                                <i class="fab fa-dev" title="difo23's DEV Profile"></i>
+                                <FontAwesomeIcon icon={faDev} />
+                                {/* <i class="fab fa-dev" title="difo23's DEV Profile"></i> */}
                             </a>
                         </div>
                     </Grid>
