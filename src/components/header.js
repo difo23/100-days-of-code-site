@@ -7,8 +7,8 @@ import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDev } from '@fortawesome/free-solid-svg-icons'
+
+
 
 const useStyles = makeStyles(theme => ({
     avatarCt: {
@@ -52,6 +52,7 @@ const Header = ({ avatar, siteDescription, twitterUrl }) => {
                     <Grid item>
                         <div>
 
+
                             <Button
                                 variant="text"
                                 color="default"
@@ -60,13 +61,26 @@ const Header = ({ avatar, siteDescription, twitterUrl }) => {
                                 rel="noreferrer"
                                 startIcon={<TwitterIcon />}
                             >
-                                Follow me on Twitter
-                        </Button>
-                            <a href="https://dev.to/difo23">
-                                <FontAwesomeIcon icon={faDev} />
-                                {/* <i class="fab fa-dev" title="difo23's DEV Profile"></i> */}
-                            </a>
+
+                                <strong> Follow me on Twitter</strong>
+                            </Button>
+
+
+
+                            <Button
+                                variant="text"
+                                color="default"
+                                href={"https://dev.to/difo23"}
+                                target="_blank"
+                                rel="noreferrer"
+
+                            >
+                                <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Lizandro 's DEV Profile" height="25" width="25" />
+                                <strong>Follow me on Dev</strong>
+                            </Button>
                         </div>
+
+
                     </Grid>
                 </Grid>
             </div>
