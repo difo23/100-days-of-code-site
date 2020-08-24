@@ -46,6 +46,9 @@ const Layout = ({ children }) => {
                 avatar={data.avatar}
                 twitterUrl={data.site.siteMetadata.twitterUrl}
             />
+            <a href="https://dev.to/difo23">
+                <i class="fab fa-dev" title="difo23's DEV Profile"></i>
+            </a>
             <div
                 style={{
                     margin: `0 auto`,
