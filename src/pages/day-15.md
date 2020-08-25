@@ -1,8 +1,8 @@
 ---
 title: "Implement 3 stacks using a single list"
-day: "16"
-publishDate: "2020-08-24"
-thumbnailImage: "../images/day-16.png"
+day: "15"
+publishDate: "2020-08-23"
+thumbnailImage: "../images/day-15.png"
 shareText: "Day 15/100  Daily Coding Problem: Implement 3 stacks using a single list."
 hashtags: ["100DaysOfCode",'javascript','algorithms' ,'stacks','interview']
 draft: false
