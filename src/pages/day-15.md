@@ -20,7 +20,8 @@ Implement 3 stacks using a single list:
 
 ### Example in python:
 
-``` class Stack:
+``` py
+class Stack:
     def __init__(self):
           self.list = []
 
@@ -32,7 +33,7 @@ Implement 3 stacks using a single list:
 ```
 
 ### Solution with JS:
-```
+```js
 class Stack {
     constructor(n = 3) {
         this.list = [];
@@ -58,7 +59,7 @@ class Stack {
 ```
 
 ### Basic Test:
-```
+```js
 let stack = new Stack();
 
 stack.push('a', 1);

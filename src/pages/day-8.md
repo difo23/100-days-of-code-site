@@ -34,7 +34,7 @@ You can see this [JavaScript Mastery](https://www.youtube.com/c/JavaScriptMaster
 ### Step #3:  Study the API Weather response:
 
 Use this example:
-```
+```json
 / 20200816182800
 // https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=439d4b804bc8187953eb36d2a8c26a02
 
@@ -86,7 +86,7 @@ Use this example:
 
 
 
-```
+```js
 / Use this sample to create your own voice commands
 intent('What does this app do?', 'What can I do here?', 
       reply('This is a weather project.'));
@@ -128,7 +128,7 @@ intent('Give me the weather from $(source* (.*))', (p) => {
 ### Step #6: Create custom hook for get data:
 
 
-```
+```jsx
 import { useState, useEffect } from 'react';
 import alanBtn from '@alan-ai/alan-sdk-web';
 
