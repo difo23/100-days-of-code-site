@@ -3,13 +3,13 @@ title: "Dynamic programming and memoization"
 day: "16"
 publishDate: "2020-08-24"
 thumbnailImage: "../images/day-16.png"
-shareText: "Day 16/100  Daily Coding Problem: Dynamic programming and memoization technique with fatorial and Pascal triangle."
+shareText: "Day 16/100  Daily Coding Problem: Dynamic programming and memoization technique with factorial and Pascal triangle."
 hashtags: ["100DaysOfCode",'javascript','algorithms' ,'memoization','interview', 'dynamic', 'programming', 'pascal', 'triangle', 'recursive']
 draft: false
 ---
 
 # Description:
-Dynamic programming technique (memoization) with fatorial and Pascal triangle. Dynamic programming is a concept that tends to be quite confusing when it comes to applying it, but memoization (not memorization) is one of the characteristics that identifies it for me. In computing, memoization or memoisation is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.  
+Dynamic programming technique (memoization) with factorial and Pascal triangle. Dynamic programming is a concept that tends to be quite confusing when it comes to applying it, but memoization (not memorization) is one of the characteristics that identifies it for me. In computing, memoization or memoisation is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.  
 
 ### Problem:
 
