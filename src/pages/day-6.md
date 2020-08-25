@@ -14,7 +14,8 @@ draft: false
 
 Date: ` 14/08/2020`
 
-### Description:
+### Description: 
+
 This problem was recently asked by **AirBNB**: Given a list of sorted numbers, and two integers `k` and `x`, find `k` closest numbers to the pivot `x`.  
 
 Here's an example and some starter code:   
