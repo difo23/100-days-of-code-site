@@ -24,7 +24,7 @@ Implement pascal's triangle with combinations.
   ```
 
 #### Factorial function with memoization and recursive:
-```
+```js
 function factorialDynamic() {
 
     let cache = new Map();
@@ -49,7 +49,7 @@ const factorial = factorialDynamic();
 ```
     Function: (P Q) = P! / (Q!-(P-Q)!)
 ```
-```
+```js
 function combinatorial(p, q) {
     return (factorial(p) / (factorial(q) * factorial(p - q)));
 }
@@ -70,7 +70,7 @@ fila          (p q)
 ```
 
 ##### Row function:
-```
+```js
 function row(p) {
 
     let row = [];
@@ -84,7 +84,7 @@ function row(p) {
 ```
 
 #### Triangle function (main):
-```
+```js
 function trianglePascal(rows) {
 
     let triangle = [];
@@ -97,7 +97,7 @@ function trianglePascal(rows) {
 ```
 
 #### Print funtion (test result):
-```
+```js
 function print(triangle) {
 
     for (let row of triangle) {
