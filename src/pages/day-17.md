@@ -9,7 +9,7 @@ draft: false
 ---
 
 # Description:
-During this day I have been working on the `ESCUELA` application, it is a personal project. The education, technical and academic qualifications components are complete. The API for data acquisition of these components was also finalized. For now, I will continue to use a simple interface only to test the important functionalities of the application, in the end we will improve the details of the interface.
+During this day I have been working on the `ESCUELA` application, it is a personal project. The technical and academic qualifications components are complete. The API for data acquisition of these components was also finalized. For now, I will continue to use a simple interface only to test the important functionalities of the application, in the end we will improve the details of the interface.
 
 ### Problem:
 
