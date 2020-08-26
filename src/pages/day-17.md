@@ -1,5 +1,5 @@
 ---
-title: "React: working on the `ESCUELA` app."
+title: "React: working on the ESCUELA app."
 day: "17"
 publishDate: "2020-08-25"
 thumbnailImage: "../images/day-17.png"
