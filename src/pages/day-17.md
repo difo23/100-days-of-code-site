@@ -2,7 +2,7 @@
 title: "React: working on the `ESCUELA` app."
 day: "17"
 publishDate: "2020-08-25"
-thumbnailImage: "../images/day-16.png"
+thumbnailImage: "../images/day-17.png"
 shareText: "Day 17/100 working on the `ESCUELA` application with React Hooks"
 hashtags: ["100DaysOfCode",'javascript','react' ,'hooks', 'Escuela', 'useEffect', 'useState', 'API', 'rest']
 draft: false
