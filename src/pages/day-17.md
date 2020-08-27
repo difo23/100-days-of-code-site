@@ -19,9 +19,3 @@ Complete the editing and updating functionalities for technical qualifications.
 
 You can check  <a href="https://github.com/difo23/cemasapi" target="_blank"> API Code </a> and <a href= 'https://github.com/difo23/cemasfront'> FRONT Code </a> by @difo23
 
-
-
- 
-
-
-
