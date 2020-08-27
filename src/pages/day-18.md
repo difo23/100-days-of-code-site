@@ -1,5 +1,5 @@
 ---
-title: "Technique Two Pointers and memoization."
+title: "Technique Two Pointers algorithms"
 day: "18"
 publishDate: "2020-08-26"
 thumbnailImage: "../images/day-18.png"
