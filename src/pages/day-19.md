@@ -1,5 +1,5 @@
 ---
-title: "Blogs APP: Microservices with Node-React"
+title: "Microservices: Blogs APP. "
 day: "19"
 publishDate: "2020-08-27"
 thumbnailImage: "../images/day-19.png"
