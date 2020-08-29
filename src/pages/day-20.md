@@ -23,14 +23,12 @@ For example, given `shortest_dist('helloworld', 'l')` , you should return `[2, 1
 function shortestDist(st, char) {
 
     let len = st.length - 1
-    
     let [
-        winLeftStart, 
-        winLeftEnd, 
-        winRightStart, 
+        winLeftStart,
+        winLeftEnd,
+        winRightStart,
         winRightEnd
     ] = [0, 0, len, len];
-
     let [pivotLeft, pivotRight] = [null, null];
     let dist = [];
     let iter = 0;
@@ -45,7 +43,7 @@ function shortestDist(st, char) {
                 ++iter;
                 if (!dist[winLeftStart]) {
 
-                    dist[winLeftStart] = Math.abs(winLeftStart - pivotLeft);
+                    dist[winLeftStart] = pivotLeft - winLeftStart;
                 }
                 ++winLeftStart;
 
@@ -53,10 +51,10 @@ function shortestDist(st, char) {
         } else {
 
             if (!!pivotLeft) {
-                let abs = Math.abs(winLeftEnd - pivotLeft);
+                let abs = winLeftEnd - pivotLeft;
 
                 if (dist[winLeftEnd]) {
-                    //End when have first match in dist
+                    //End when have frist match in dist
                     dist[winLeftEnd] = dist[winLeftEnd] < abs ? dist[winLeftEnd] : abs;
                     return { dist, iter };
                 }
@@ -75,7 +73,7 @@ function shortestDist(st, char) {
                 ++iter;
                 if (!dist[winRightStart]) {
 
-                    dist[winRightStart] = Math.abs(winRightStart - pivotRight);
+                    dist[winRightStart] = winRightStart - pivotRight;
 
                 }
                 --winRightStart;
@@ -85,7 +83,7 @@ function shortestDist(st, char) {
 
             if (!!pivotRight) {
 
-                dist[winRightEnd] = Math.abs(winRightEnd - pivotRight);
+                dist[winRightEnd] = pivotRight - winRightEnd;
 
             }
 
