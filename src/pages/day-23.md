@@ -12,8 +12,6 @@ draft: false
 
 ## Day 23/100: Kubernetes-Docker and Apache Kafka-Zookeeper, a great ecosystem for micro-services.
 
-
-.
 ### Kubernetes-Docker:
 
  As I researched Docker and containers, I observed its close relationship with Kubernetes and the topic of orchestrating containers to scale systems to enormous dimensions. Understanding the need for container orchestration broadens your curiosity about technologies that solve this problem such as Docker Swarm, Mesos, and the most popular Kubernetes so far.
