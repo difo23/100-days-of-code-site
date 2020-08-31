@@ -11,6 +11,8 @@ draft: false
 # Kubernetes, Apache Kafka and Zookeeper.
 
 ## Day 23/100: Kubernetes-Docker and Apache Kafka-Zookeeper, a great ecosystem for micro-services.
+
+![Kubernetes and Kafka-Zookeeper](../images/kk1.png)
 .
 ### Kubernetes-Docker:
 
