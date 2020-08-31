@@ -3,7 +3,7 @@ title: "Microservices: Docker and Nodejs. "
 day: "21"
 publishDate: "2020-08-29"
 thumbnailImage: "../images/day-21.png"
-shareText: "Day 21/100 Continue small project on microservices in Node js and React, create simple GET and POST method for Posts and Comments service. I read a lot about Docker. I try to understand how docker works internally and how to implement it in my personal projects."
+shareText: "Day 21/100 Continue small project on microservices in Node js and React, create simple GET and POST method for Posts and Comments services. I read a lot about Docker. I try to understand how docker works internally and how to implement it in my personal projects."
 hashtags: ["100DaysOfCode",'javascript','microservices' ,'react', 'node', 'express', 'axios', 'blogs', 'async', 'docker']
 draft: false
 ---
