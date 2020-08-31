@@ -16,7 +16,6 @@ The 22nd was focused on research and documentation, I was reading and watching s
 * **Microservices vs Monolithic**: Comparison between advantages and disadvantages.
 * **Containers in Docker vs. VM**: Comparison between advantages and disadvantages. Many people often confuse these terms and their application.
 
-![VM vs Docker](../images/vm-vs-docker.png)
 
 As I researched, I came to understand the close relationship that exists between various distributed system technologies, such as Zookeeper, Kafka, Kubernetes, and Docker. For this reason, I'm going to take some time with each of these technologies to get an idea of ​​what they do. Starting with the relationship between Docker and Kubernetes.
 
@@ -44,4 +43,6 @@ At the end of the research on Dockers I continued working with the small applica
 ## Repos:
 * [Comment microservice with Node and Express](https://github.com/difo23/commentsmicroservice)  
 * [Post microservice with Node and Express](https://github.com/difo23/postmicroservice)  
+  
+* [Simple Events Bus Node and Express](https://github.com/difo23/event-bus)  
 * [Client With react](https://github.com/difo23/clientblogs)  

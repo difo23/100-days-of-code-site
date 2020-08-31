@@ -12,7 +12,7 @@ draft: false
 
 ## Day 23/100: Kubernetes-Docker and Apache Kafka-Zookeeper, a great ecosystem for micro-services.
 
-![Kubernetes and Kafka-Zookeeper](../images/kk1.png)
+
 .
 ### Kubernetes-Docker:
 
@@ -29,4 +29,6 @@ Continue small project on microservices in Node js and React, create simple Even
 ## Repos:
 * [Comment microservice with Node and Express](https://github.com/difo23/commentsmicroservice)  
 * [Post microservice with Node and Express](https://github.com/difo23/postmicroservice)  
+   
+* [Simple Events Bus Node and Express](https://github.com/difo23/event-bus)  
 * [Client With react](https://github.com/difo23/clientblogs)  
