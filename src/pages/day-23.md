@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes, Apache Kafka and Zookeeper"
 day: "23"
-publishDate: "2020-09-01"
+publishDate: "2020-08-31"
 thumbnailImage: "../images/day-23.png"
 shareText: "Day 23/100: Kubernetes-Docker and Apache Kafka-Zookeeper, a great ecosystem for micro-services."
 hashtags: ["100DaysOfCode",'zookeeper','microservices' ,'node', 'kafka', 'kubernetes', 'eventbus', 'async', 'docker']
