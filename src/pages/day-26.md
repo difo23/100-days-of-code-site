@@ -1,5 +1,5 @@
 ---
-title: "AWS: A Web App in AWS"
+title: "AWS: A Web App"
 day: "26"
 publishDate: "2020-09-03"
 thumbnailImage: "../images/day-26.png"
