@@ -1,5 +1,5 @@
 ---
-title: "FreeCodeCamp: AWS Certified C, P."
+title: "FreeCodeCamp: AWS Certified C. P."
 day: "25"
 publishDate: "2020-09-02"
 thumbnailImage: "../images/day-25.png"
