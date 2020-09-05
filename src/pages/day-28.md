@@ -1,5 +1,5 @@
 ---
-title: "Python Notebooks: Pandas and statistics Basics"
+title: "Python Notebooks: Pandas and statistics"
 day: "28"
 publishDate: "2020-09-05"
 thumbnailImage: "../images/day-28.png"
