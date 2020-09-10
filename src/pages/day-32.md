@@ -3,8 +3,8 @@ title: "ESCUELA App: API and Client"
 day: "32"
 publishDate: "2020-09-09"
 thumbnailImage: "../images/day-32.png"
-shareText: "Day 31/100 ESCUELA App: Updating of the subject options in the API and client."
-hashtags: ["100DaysOfCode",'react','node' ,'restful', 'express', 'mongodb', 'deep_learning', 'hooks']
+shareText: "Day 32/100 ESCUELA App: Updating of the subject options in the API and client."
+hashtags: ["100DaysOfCode",'react','node' ,'restful', 'express', 'mongodb', 'hooks']
 draft: false
 ---
 
