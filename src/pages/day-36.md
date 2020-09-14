@@ -1,5 +1,5 @@
 ---
-title: "ESCUELA App: Deployment on Heroku."
+title: "ESCUELA App: On Heroku."
 day: "36"
 publishDate: "2020-09-14"
 thumbnailImage: "../images/day-36.png"
