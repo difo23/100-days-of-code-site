@@ -1,7 +1,7 @@
 ---
 title: "Fruits in each basket"
 day: "40"
-publishDate: "2020-09-21"
+publishDate: "2020-09-22"
 thumbnailImage: "../images/day-40.png"
 shareText: "Day 40/100  Daily Coding Problem: Given an array of characters where each character represents a fruit tree, you are given two baskets and your goal is to put maximum number of fruits in each basket. The only restriction is that each basket can have only one type of fruit"
 hashtags: ["100DaysOfCode",'javascript','coding','problem' ,'bigO', 'interview']
@@ -86,15 +86,3 @@ console.log(fruitBasket(fruit))
 
 You can check  
  <a href="https://github.com/difo23/interviewQuestAnsJS" target="_blank"> code </a> by @difo23   
-
-
-
-
-
-*/
-
-
-
-
-
-
