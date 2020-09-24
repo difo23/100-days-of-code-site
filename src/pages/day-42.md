@@ -58,7 +58,7 @@ let uniqueASCII = (st) => {
 let unique = (st) => {
 
    const arr = st.split('');
-   const find = arr.find((char, i, arr)=> arr.slice(i+1, arr.length/2).includes(char))
+   const find = arr.find((char, i, arr)=> arr.slice(i+1, arr.length).includes(char))
    if(find){
         return false;
    }else{
