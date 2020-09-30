@@ -3,13 +3,13 @@ title: "ESCUELA: Spinners Loading"
 day: "45"
 publishDate: "2020-09-29"
 thumbnailImage: "../images/day-45.png"
-shareText: "Day 45/100  ESCUELA APP:Add spin load on all request and response processes to the database. For forms, we use formik in React and handle the status of the spinners using the status hooks provided by Liberia."
+shareText: "Day 45/100  ESCUELA APP:Add spin load on all request and response processes to the database. For forms, we use formik in React and handle the status of the spinners using the status hooks provided by formik."
 hashtags: ["100DaysOfCode",'javascript','react','hooks' ,'spinners', 'formik']
 draft: false
 ---
 
 # Description:
-ESCUELA APP:Add spin load on all request and response processes to the database. For forms, we use formik in React and handle the status of the spinners using the status hooks provided by Liberia.
+ESCUELA APP:Add spin load on all request and response processes to the database. For forms, we use formik in React and handle the status of the spinners using the status hooks provided by formik.
 
 
 You can check  
