@@ -56,8 +56,6 @@ let twoSumOn = (arr, target) => {
 		currentSum = arrSorted[left] + arrSorted[rigth];
 
 		if (currentSum === target) {
-			left = arr.indexOf(arrSorted[left]);
-			rigth = arr.indexOf(arrSorted[rigth]);
 
 			return [left, rigth];
 		}
