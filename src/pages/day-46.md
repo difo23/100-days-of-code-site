@@ -3,7 +3,7 @@ title: "TwoAdd Problem"
 day: "46"
 publishDate: "2020-10-03"
 thumbnailImage: "../images/day-46.png"
-shareText: "Day 44/100  Daily Coding Problem::Given an array of integers, return indices of the two numbers such that they add up to a specific target.You may assume that each input would have exactly one solution, and you may not use the same element twice. "
+shareText: "Day 46/100  Daily Coding Problem: Given an array of integers, return indices of the two numbers such that they add up to a specific target.You may assume that each input would have exactly one solution, and you may not use the same element twice. "
 hashtags: ["100DaysOfCode",'javascript','coding','problem' ,'bigO', 'interview']
 draft: false
 ---
