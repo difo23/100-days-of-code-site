@@ -22,6 +22,6 @@ Javascript has several testing frameworks that have been adapted to the React ec
 
 
 
-## My GitHub for GitHubJobs App:  
+## My GitHub:  
 
 Proyecto #1 [Heroeapp](https://github.com/difo23/heroeapp.git) by @difo23   
