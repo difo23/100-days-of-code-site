@@ -1,5 +1,6 @@
 ---
 title: "What is MicroFrontend?"
+day: "51"
 publishDate: "2020-10-26"
 thumbnailImage: "../images/day-51.png"
 shareText: "Day 51/100 : we'll describe a trend of breaking up frontend monoliths into many smaller, more manageable pieces, and how this architecture can increase the effectiveness and efficiency of teams working on frontend code"
