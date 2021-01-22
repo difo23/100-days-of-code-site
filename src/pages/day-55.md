@@ -1,51 +1,14 @@
 ---
-title: "Remove Duplicate"
-day: "53"
-publishDate: "2020-11-23"
-thumbnailImage: "../images/day-53.png"
-shareText: "Day 53/100 : Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate. "
-hashtags: ["100DaysOfCode",'interview', 'problem', 'js', 'twopointers']
+title: "Firestore conections"
+day: "55"
+publishDate: "2020-11-25"
+thumbnailImage: "../images/day-55.png"
+shareText: "Day 55/100 : A connection is a user interacting with Firebase"
+hashtags: ["100DaysOfCode",'firestore', 'conections', 'js', 'node']
 draft: false
 ---
 
 # Description:
-## Remove Duplicate
-Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate.
-
-## Example:
-
-Input:  `list = [3, 4, 4, 4, 4, 7, 7, 7, 9, 9, 9]`   
-Output: `4`
-
-
-
-## Solution js:
-
-```js
-
-//two 
-
-let removeDuplicate = (list) => {
-
-    let noDup = 1;
-    let next = 1;
-
-    while( next <  list.length){
-
-        if(list[noDup-1] != list[next]){
-            list[noDup] = list[next];
-            ++ noDup;
-        }
-        ++ next;
-    }
-
-    return noDup;
-
-}
-
-
-
-```
-
+In Firebase, a connection is a user interacting with Firebase, and a connection opens when a user opens the app, and closes when the user leaves the app. This means that to hit the 100 connection cap, 100 users must have the app open at the same time.
 
 

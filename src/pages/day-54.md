@@ -1,50 +1,27 @@
 ---
-title: "Remove Duplicate"
-day: "53"
-publishDate: "2020-11-23"
-thumbnailImage: "../images/day-53.png"
-shareText: "Day 53/100 : Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate. "
-hashtags: ["100DaysOfCode",'interview', 'problem', 'js', 'twopointers']
+title: "Firestore Config"
+day: "54"
+publishDate: "2020-11-24"
+thumbnailImage: "../images/day-54.png"
+shareText: "Day 54/100 : Firestore configuration first step with nodejs. "
+hashtags: ["100DaysOfCode",'firebase', 'node', 'js']
 draft: false
 ---
 
 # Description:
-## Remove Duplicate
-Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate.
-
-## Example:
-
-Input:  `list = [3, 4, 4, 4, 4, 7, 7, 7, 9, 9, 9]`   
-Output: `4`
-
-
-
-## Solution js:
+Cloud Firestore is a flexible and scalable database for programming on servers,   
+mobile devices, and the web from Firebase and Google Cloud Platform.   
+Like Firebase Realtime Database, it keeps your data in sync between client applications through     listeners in real time and offers offline support for mobile devices and the web, so you can build    responsive applications that work regardless of network latency or Internet connectivity. Cloud    Firestore also offers seamless integration with other Firebase and Google Cloud Platform products,      including Cloud Functions.   
 
 ```js
+// Initialize Cloud Firestore through Firebase
+firebase.initializeApp({
+  apiKey: '### FIREBASE API KEY ###',
+  authDomain: '### FIREBASE AUTH DOMAIN ###',
+  projectId: '### CLOUD FIRESTORE PROJECT ID ###'
+});
 
-//two 
-
-let removeDuplicate = (list) => {
-
-    let noDup = 1;
-    let next = 1;
-
-    while( next <  list.length){
-
-        if(list[noDup-1] != list[next]){
-            list[noDup] = list[next];
-            ++ noDup;
-        }
-        ++ next;
-    }
-
-    return noDup;
-
-}
-
-
-
+var db = firebase.firestore();
 ```
 
 
