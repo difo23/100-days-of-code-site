@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
-		title: `Lizandro's 100 Days of Code`,
-		description: `Hey I'm Lizandro(difo23)! I'm a Software Engineer completing the 100 Days of Code Challenge.`,
+		title: `Lizandro's Code Diaries`,
+		description: `Hey I'm Lizandro(difo23)! I'm a Software Engineer.`,
 		author: `@difo23`,
 		githubUrl: `https://github.com/difo23`,
 		twitterUrl: 'https://twitter.com/lizandro23difo'
