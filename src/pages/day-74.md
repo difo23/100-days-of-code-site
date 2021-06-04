@@ -2,7 +2,7 @@
 title: "Remove Duplicate"
 day: "53"
 publishDate: "2020-11-23"
-thumbnailImage: "../images/day-53.png"
+thumbnailImage: "../images/day-38.png"
 shareText: "Day 53/100 : Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate. "
 hashtags: ["100DaysOfCode",'interview', 'problem', 'js', 'twopointers']
 draft: false
