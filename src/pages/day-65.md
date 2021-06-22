@@ -1,48 +1,85 @@
 ---
-title: "Remove Duplicate"
-day: "53"
-publishDate: "2020-11-23"
-thumbnailImage: "../images/day-38.png"
-shareText: "Day 53/100 : Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate. "
-hashtags: ["100DaysOfCode",'interview', 'problem', 'js', 'twopointers']
+title: "Fetch API"
+day: "65"
+publishDate: "2021-06-10"
+thumbnailImage: "../images/day-65.png"
+shareText: "Day 65/100 : Get data from an API using  dinamy programing "
+hashtags: ["100DaysOfCode",'interview', 'problem', 'js']
 draft: false
 ---
 
 # Description:
-## Remove Duplicate
-Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate.
+## Fetch API
 
-## Example:
-
-Input:  `list = [3, 4, 4, 4, 4, 7, 7, 7, 9, 9, 9]`   
-Output: `4`
-
-
+Get data from an API using  dinamy programing
 
 ## Solution js:
 
 ```js
 
-//two 
 
-let removeDuplicate = (list) => {
+//  Endpoint  `https://jsonmock.hackerrank.com/api/countries?page=${num}`
+// Input AF --Code
+// Output Afghanistan --dame 
 
-    let noDup = 1;
-    let next = 1;
+const fetch = require("node-fetch");
 
-    while( next <  list.length){
+const fetchPage = () => {
 
-        if(list[noDup-1] != list[next]){
-            list[noDup] = list[next];
-            ++ noDup;
+    const cache = {};
+    return async (num) => {
+
+        if (num in cache) {
+            console.log("is in chache", cache[num].page);
+            return cache[num]
+        } else {
+
+            try {
+
+                const resp = await fetch(`https://jsonmock.hackerrank.com/api/countries?page=${num}`)
+                const json = await resp.json()
+                console.log("not in cache", num)
+                cache[num] = json;
+                return json;
+
+            } catch (e) {
+                console.log(e);
+                return [];
+            }
         }
-        ++ next;
     }
-
-    return noDup;
-
 }
 
+const getPage = fetchPage()
+
+const getCountryNameByCode = async (code) => {
+
+    const validCode = code.toUpperCase();
+    const num_pages = 1;
+
+
+    const { total_pages } = await getPage(`${num_pages}`);
+    ;
+    for (let i = num_pages; i <= total_pages; i++) {
+
+        const { data } = await getPage(`${i}`);
+        let country = data.find(c => c.alpha2Code === validCode);
+
+        if (!!country) return country.name;
+
+    }
+
+    return "not found";
+}
+
+
+getCountryNameByCode("TN").then(name => {
+    console.log(name)
+    getCountryNameByCode("TN").then(name => {
+        console.log(name)
+        getCountryNameByCode("AR").then(name => console.log(name))
+    })
+})
 
 
 ```

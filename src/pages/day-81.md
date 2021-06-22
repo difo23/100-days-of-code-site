@@ -1,51 +1,36 @@
 ---
-title: "Remove Duplicate"
-day: "53"
-publishDate: "2020-11-23"
-thumbnailImage: "../images/day-53.png"
-shareText: "Day 53/100 : Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate. "
-hashtags: ["100DaysOfCode",'interview', 'problem', 'js', 'twopointers']
+title: "Cursos Estadísticas descriptivas - 1"
+day: "81"
+publishDate: "2021-07-22"
+thumbnailImage: "../images/day-81.png"
+shareText: " Description: Sabemos y tenemos bien claro que la estadística descriptiva es súper común, pero el diferenciador más grande de este curso es que estamos contextualizando la estadística descriptiva específicamente para Ciencia de Datos.  "
+hashtags: ['learn']
 draft: false
+
 ---
 
-# Description:
-## Remove Duplicate
-Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate.
+## Plan del curso
 
-## Example:
-
-Input:  `list = [3, 4, 4, 4, 4, 7, 7, 7, 9, 9, 9]`   
-Output: `4`
+| Source:      | https://platzi.com/clases/estadistica-descriptiva/           |
+| ------------ | ------------------------------------------------------------ |
+| **Course:**  | Curso de Matemáticas para Data Science: Estadística Descriptiva |
+| **Teacher:** | Francisco Camacho                                            |
 
 
 
-## Solution js:
+## Notes 
 
-```js
+#### ¿Cuál es diferenciador de este curso?
 
-//two 
+Sabemos y tenemos bien claro que la estadística descriptiva es súper común, pero el diferenciador más grande de este curso es que estamos contextualizando la estadística descriptiva específicamente para Ciencia de Datos. No solo vamos a entender las fórmulas matemáticas si no el contexto de la estadística para descubrir todas las caras que tiene..
 
-let removeDuplicate = (list) => {
+#### ¿Cuáles serán los puntos específicos que vamos a tratar en este curso?
 
-    let noDup = 1;
-    let next = 1;
+1.  **Tipos de datos, pipeline de procesamiento. (Ingesta de datos y validación)**
 
-    while( next <  list.length){
+> **Primera parte del curso**: Vamos abordar cuales son los elementos de estadísticas  descriptiva para la in-gesta y procesamiento de datos. 
 
-        if(list[noDup-1] != list[next]){
-            list[noDup] = list[next];
-            ++ noDup;
-        }
-        ++ next;
-    }
+2. **Análisis exploratorio, estadísticas descriptiva, correlaciones, reducciones de datos. ( Preparación y entrenamiento del modelo )**
 
-    return noDup;
-
-}
-
-
-
-```
-
-
+> **Segunda parte del curso:** Vamos a ver análisis exploratorio de los datos, identificar correlaciones de los datos, abordaremos si a partir de eso podemos reducir el conjunto de datos que necesitamos para un modelo. Entonces, el objetivo es abordar los estadísticos para exploración y analítica.
 

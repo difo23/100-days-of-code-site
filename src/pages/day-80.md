@@ -1,51 +1,54 @@
 ---
-title: "Remove Duplicate"
-day: "53"
-publishDate: "2020-11-23"
-thumbnailImage: "../images/day-53.png"
-shareText: "Day 53/100 : Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate. "
-hashtags: ["100DaysOfCode",'interview', 'problem', 'js', 'twopointers']
+title: "Cursos Estadísticas descriptivas - 0"
+day: "80"
+publishDate: "2021-07-21"
+thumbnailImage: "../images/day-80.png"
+shareText: " Description: Curso complementario en la escuela de DS con platzi "
+hashtags: ['learn', 'Estadisticas', 'py', 'Data science']
 draft: false
+
 ---
 
-# Description:
-## Remove Duplicate
-Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate.
+## Estadística descriptiva 
 
-## Example:
-
-Input:  `list = [3, 4, 4, 4, 4, 7, 7, 7, 9, 9, 9]`   
-Output: `4`
+| Source:      | https://platzi.com/clases/estadistica-descriptiva/           |
+| ------------ | ------------------------------------------------------------ |
+| **Course:**  | Curso de Matemáticas para Data Science: Estadística Descriptiva |
+| **Teacher:** | Francisco Camacho                                            |
 
 
 
-## Solution js:
+## Notes 
 
-```js
-
-//two 
-
-let removeDuplicate = (list) => {
-
-    let noDup = 1;
-    let next = 1;
-
-    while( next <  list.length){
-
-        if(list[noDup-1] != list[next]){
-            list[noDup] = list[next];
-            ++ noDup;
-        }
-        ++ next;
-    }
-
-    return noDup;
-
-}
+## Estadística descriptiva vs inferencial
 
 
 
-```
+|                         | Estadística descriptiva                                      | Estadística inferencial                                      |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Definición**          | Es empleada para resumir las características clave de datos conocidos.( Resumir el pasado-presente ) | Implica el uso de datos muéstrales para hacer generalizaciones o inferencias acerca de una población.  (Predecir el futuro basándonos el pasado-presente) |
+| **Objetivos**           | Caracterizar y examinar tendencias (distribuciones en grupos de datos) | Examinar diferencias entre grupos. Examinar si las variables están asociadas. Comparar promedios entre grupos. Predecir una variable a partir de otra. |
+| **Métodos de análisis** | Medidas de tendencia central: Media, Mediana y Moda. Medidas de variabilidad: Varianza, Desviación estándar, Rango y Frecuencia. | T-Test, Análisis de varianza, Correlación y regresión.       |
 
+### ¿Qué podemos medir con la estadística?
 
+• Dependerá de la definición de quien este evaluando quien podría ser el mejor jugador.
+• No hay una definición objetiva.
+• Los diferentes estadísticos descriptivos solo dan diferentes nociones sobre los datos.
+
+### ¿Por qué aprender estadística?
+
+• Resumir grandes cantidades de información.
+• Tomar mejores decisiones (o peores).
+• Responder preguntas con relevancia social.
+• Reconocer patrones en los datos.
+• Descubrir a quienes usan estas herramientas con fines nefastos.
+
+**¿Puedes mentir con estadísticas ?**
+
+* Dependerá de la definición de quien es el mejor resultado esperado.
+* No hay una definición subjetiva.
+* Los diferentes estadísticos descriptivos dan nociones diferentes sobre los mismo datos. 
+
+**El gran problema de la estadística descriptiva** - Naked Statistics, Charles Wheelan. 
 

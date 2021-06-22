@@ -1,14 +1,31 @@
 ---
-title: "Firestore Index and where"
+title: "Building portfolio"
 day: "61"
-publishDate: "2020-12-3"
-thumbnailImage: "../images/day-38.png"
-shareText: "Day 61/100 : "
+publishDate: "2021-06-07"
+thumbnailImage: "../images/day-61.png"
+shareText: "Day 61/100 : Intro to building your portfolio  "
 hashtags: ["100DaysOfCode",'firesotore', 'Index-Where', 'js', 'node']
 draft: false
 ---
 
-# Description:
+# Intro to building your portfolio 
 
+------
 
+In this part of the course, you will prepare a case study that you can include in your online portfolio. All of the resources provided will help you to succeed in this goal (referred to as the Google Data Analytics Capstone).
 
+There is an old saying that you learn by doing. You have already learned about the importance of each phase in the data analysis process when working with a dataset. You will soon learn about the importance of having an online portfolio. The Google Data Analytics Capstone will enable you to actually put the two together—a dataset you took through the data analysis process for your portfolio. 
+
+By completing your capstone project, you will practice:
+
+- Going through the Ask, Prepare, Process, Analyze, and Share phases of the data analysis process
+- Stating a business task clearly
+- Importing data from a real dataset
+- Documenting any data cleaning that you perform on the dataset
+- Analyzing the data 
+- Creating data visualizations from your analysis
+- Summarizing key findings from your analysis
+- Documenting your conclusions and recommendations
+- Creating and publishing your case study 
+
+Your case study will demonstrate these fundamental skills to prospective employers and showcase what you have learned from the Google Data Analytics Certificate. It will represent your knowledge and capabilities in your portfolio.

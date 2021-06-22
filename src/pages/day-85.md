@@ -1,51 +1,37 @@
 ---
-title: "Remove Duplicate"
-day: "53"
-publishDate: "2020-11-23"
-thumbnailImage: "../images/day-53.png"
-shareText: "Day 53/100 : Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate. "
-hashtags: ["100DaysOfCode",'interview', 'problem', 'js', 'twopointers']
+title: "Cursos Estadísticas descriptivas - 5"
+day: "85"
+publishDate: "2021-07-27"
+thumbnailImage: "../images/day-80.png"
+shareText: " Description: Curso complementario en la escuela de DS con platzi "
+hashtags: ['learn']
 draft: false
+
 ---
 
-# Description:
-## Remove Duplicate
-Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate.
+## Medidas de dispersion
 
-## Example:
-
-Input:  `list = [3, 4, 4, 4, 4, 7, 7, 7, 9, 9, 9]`   
-Output: `4`
-
+| Source:       | https://platzi.com/clases/estadistica-descriptiva/           |
+| ------------- | ------------------------------------------------------------ |
+| **Course:**   | Curso de Matemáticas para Data Science: Estadística Descriptiva |
+| **Teacher:**  | Francisco Camacho                                            |
+| **Notebook:** | [Personal deepnote](https://deepnote.com/project/curso-estadistica-descriptiva-2021-Duplicate-7uTueWZDQ-aKrq24bLdf2A) |
 
 
-## Solution js:
+## Notes
 
-```js
+## Medidas de dispersión
 
-//two 
+- **Rango:** El Rango es el intervalo entre el valor máximo y el valor mínimo.
 
-let removeDuplicate = (list) => {
+- **Cuartiles:** Los cuartiles son valores que dividen una muestra de datos en cuatro partes iguales.
+  - **1er cuartil (Q1):** 25% de los datos es menor que o igual a este valor.
+  - **2do cuartil (Q2):** La mediana. 50% de los datos es menor que o igual a este valor.
+  - **3er cuartil (Q3):** 75% de los datos es menor que o igual a este valor.
+* **Rango intercuartil (IQR):** La distancia entre el primer 1er cuartil y el 3er cuartil (Q3-Q1); de esta manera, abarca el 50% central de los datos.
+* **Desviación estándar**: La **desviación estándar** mide la dispersión de una distribución de datos. Entre más dispersa está una distribución de datos, más grande es su **desviación estándar**.
 
-    let noDup = 1;
-    let next = 1;
-
-    while( next <  list.length){
-
-        if(list[noDup-1] != list[next]){
-            list[noDup] = list[next];
-            ++ noDup;
-        }
-        ++ next;
-    }
-
-    return noDup;
-
-}
-
-
-
-```
+- **Diagrama de caja o box plot:** representa gráficamente una serie de datos numéricos a través de sus cuartiles. De esta manera, el diagrama de caja muestra a simple vista la mediana y los cuartiles de los datos. También puede representar los valores atípicos de estos.
 
 
 

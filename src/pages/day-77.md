@@ -1,51 +1,72 @@
 ---
-title: "Remove Duplicate"
-day: "53"
-publishDate: "2020-11-23"
-thumbnailImage: "../images/day-38.png"
-shareText: "Day 53/100 : Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate. "
-hashtags: ["100DaysOfCode",'interview', 'problem', 'js', 'twopointers']
+title: "Pattern: Sliding Window"
+day: "77"
+publishDate: "2021-06-23"
+thumbnailImage: "../images/day-77.png"
+shareText: "Day 77/100 : Pattern: Sliding Window Given an array of positive numbers and a positive number ‘S,’ find the length of the **smallest contiguous subarray whose sum is greater than or equal to ‘S’**. Return 0 if no such subarray exists."
+hashtags: ["100DaysOfCode",'interview']
 draft: false
 ---
 
-# Description:
-## Remove Duplicate
-Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate.
+##### Pattern: Sliding Window
 
-## Example:
+Given an array of positive numbers and a positive number ‘S,’ find the length of the **smallest contiguous subarray whose sum is greater than or equal to ‘S’**. Return 0 if no such subarray exists.
 
-Input:  `list = [3, 4, 4, 4, 4, 7, 7, 7, 9, 9, 9]`   
-Output: `4`
+**Example 1:**
 
+```
+Input: [2, 1, 5, 2, 3, 2], S=7 
+Output: 2
+Explanation: The smallest subarray with a sum greater than or equal to '7' is [5, 2].
+```
 
+**Example 2:**
 
-## Solution js:
+```
+Input: [2, 1, 5, 2, 8], S=7 
+Output: 1
+Explanation: The smallest subarray with a sum greater than or equal to '7' is [8].
+```
+
+**Example 3:**
+
+```
+Input: [3, 4, 1, 1, 6], S=8 
+Output: 3
+Explanation: Smallest subarrays with a sum greater than or equal to '8' are [3, 4, 1] 
+or [1, 1, 6].
+```
 
 ```js
+    
+function max_sub_array_of_size_k(k, arr) {
+  
+    let maxSum = 0, windowSum = 0, windowStart = 0;
 
-//two 
-
-let removeDuplicate = (list) => {
-
-    let noDup = 1;
-    let next = 1;
-
-    while( next <  list.length){
-
-        if(list[noDup-1] != list[next]){
-            list[noDup] = list[next];
-            ++ noDup;
-        }
-        ++ next;
+  for (window_end = 0; window_end < arr.length; window_end++) {
+    windowSum += arr[window_end]; // add the next element
+      
+    // slide the window, we don't need to slide if we've not hit 
+    //the required window size of 'k'
+    if (window_end >= k - 1) {
+      maxSum = Math.max(maxSum, windowSum);
+      windowSum -= arr[windowStart]; // subtract the element going out
+      windowStart += 1; // slide the window ahead
     }
-
-    return noDup;
-
+  }
+  return maxSum;
 }
 
 
+console.log(`Maximum sum of a subarray of size K: 
+	${max_sub_array_of_size_k(
+    	3, 
+    	[2, 1, 5, 1, 3, 2]
+	)}`);
 
+console.log(`Maximum sum of a subarray of size K: 
+	${max_sub_array_of_size_k(
+    	2, 
+    	[2, 3, 4, 1, 5]
+	)}`);
 ```
-
-
-

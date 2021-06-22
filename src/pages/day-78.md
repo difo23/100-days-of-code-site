@@ -1,51 +1,20 @@
 ---
-title: "Remove Duplicate"
-day: "53"
-publishDate: "2020-11-23"
-thumbnailImage: "../images/day-38.png"
-shareText: "Day 53/100 : Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate. "
-hashtags: ["100DaysOfCode",'interview', 'problem', 'js', 'twopointers']
+title: "Earth data science"
+day: "78"
+publishDate: "2021-06-24"
+thumbnailImage: "../images/day-78.png"
+shareText: "Day 78/100 : This site contains open, tutorials and course materials covering topics including data integration, GIS and data intensive science."
+hashtags: ["100DaysOfCode",'interview']
 draft: false
 ---
 
-# Description:
-## Remove Duplicate
-Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate.
+## Welcome to Earth Data Science !
 
-## Example:
+This site contains open, tutorials and course materials covering topics including data integration, GIS and data intensive science.
 
-Input:  `list = [3, 4, 4, 4, 4, 7, 7, 7, 9, 9, 9]`   
-Output: `4`
+Explore our **310 earth data science lessons** that will help you learn how to work with data in the `R` and `Python` programming languages.
 
+Also be sure to check back often as we are posting a suite of new `Python` lessons and courses!
 
-
-## Solution js:
-
-```js
-
-//two 
-
-let removeDuplicate = (list) => {
-
-    let noDup = 1;
-    let next = 1;
-
-    while( next <  list.length){
-
-        if(list[noDup-1] != list[next]){
-            list[noDup] = list[next];
-            ++ noDup;
-        }
-        ++ next;
-    }
-
-    return noDup;
-
-}
-
-
-
-```
-
-
+[Page](https://www.earthdatascience.org/)
 

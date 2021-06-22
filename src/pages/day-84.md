@@ -1,51 +1,63 @@
 ---
-title: "Remove Duplicate"
-day: "53"
-publishDate: "2020-11-23"
-thumbnailImage: "../images/day-53.png"
-shareText: "Day 53/100 : Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate. "
-hashtags: ["100DaysOfCode",'interview', 'problem', 'js', 'twopointers']
+title: "Cursos Estadísticas descriptivas - 4"
+day: "84"
+publishDate: "2021-07-26"
+thumbnailImage: "../images/day-84.png"
+shareText: " Description: Curso complementario en la escuela de DS con platzi "
+hashtags: ['learn']
 draft: false
+
 ---
 
-# Description:
-## Remove Duplicate
-Given an ordered list of numbers, remove all duplicates. You should not use any additional space; after removing duplicates in place, return the length of the subarray that has no duplicate.
+## Medidas de tendencia central en Python
 
-## Example:
-
-Input:  `list = [3, 4, 4, 4, 4, 7, 7, 7, 9, 9, 9]`   
-Output: `4`
-
+| Source:       | https://platzi.com/clases/estadistica-descriptiva/           |
+  | ------------- | ------------------------------------------------------------ |
+  | **Course:**   | Curso de Matemáticas para Data Science: Estadística Descriptiva |
+  | **Teacher:**  | Francisco Camacho                                            |
+  | **Notebook:** | [Personal deepnote](https://deepnote.com/project/curso-estadistica-descriptiva-2021-Duplicate-7uTueWZDQ-aKrq24bLdf2A) |
 
 
-## Solution js:
+## Notes
 
-```js
+### Pandas en acción medidas centrales y gráficas
 
-//two 
+```python
+import pandas as pd 
+import seaborn as sns
 
-let removeDuplicate = (list) => {
+df = pd.read_csv('cars.csv')
+df.head()
 
-    let noDup = 1;
-    let next = 1;
+# Valores centrales promedio y mediana
+df['price_usd'].mean()
+df['price_usd'].median()
 
-    while( next <  list.length){
+# Diagrama de frecuencias o Histograma (Las barras corresponde a un rango de valores)
+df['price_usd'].plot.hist(bins=20)
 
-        if(list[noDup-1] != list[next]){
-            list[noDup] = list[next];
-            ++ noDup;
-        }
-        ++ next;
-    }
+# Seaborn libreria con enfoque estadistico
+# Hue separa los datos en categorias
 
-    return noDup;
+# Separar el precio por fabricante
+sns.displot(df, x = 'price_usd', hue = 'manufacturer_name')
 
-}
+# Separar el precio por tipo de motor
+sns.displot(df, x="price_usd", hue="engine_type")
 
+# multiple = tack sirve para mostrar las barras apiladas una encima d ela otra.
+sns.displot(df, x='price_usd', hue = 'engine_type', multiple='stack')
 
+# Otro estadistico descritivo es el conteo, usando groupby podemos usar estadisticos
+df.groupby('engine_type').count()
+
+#RETO: Inspeccionemos precios de una marca y modelo particular !
+Q7_df = df[(df['manufacturer_name']=='Audi') & (df['model_name']=='Q7')]
+
+# Grafica para el modelo Q7
+sns.histplot(Q7_df, x='price_usd', hue = 'year_produced')
 
 ```
 
-
+[Mas información sobre Seaborn...](https://seaborn.pydata.org/tutorial/distributions.html)
 
