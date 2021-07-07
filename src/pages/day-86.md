@@ -1,5 +1,5 @@
 ---
-title: "Cursos Estadísticas descriptivas - 6"
+title: "Desviación estándar"
 day: "86"
 publishDate: "2021-07-28"
 thumbnailImage: "../images/day-82.png"
@@ -11,11 +11,11 @@ draft: false
 
 ## Desviación estándar
 
- | Source:       | https://platzi.com/clases/estadistica-descriptiva/           |
-  | ------------- | ------------------------------------------------------------ |
-  | **Course:**   | Curso de Matemáticas para Data Science: Estadística Descriptiva |
-  | **Teacher:**  | Francisco Camacho                                            |
-  | **Notebook:** | [Personal deepnote](https://deepnote.com/project/curso-estadistica-descriptiva-2021-Duplicate-7uTueWZDQ-aKrq24bLdf2A) |
+| Source:       | https://platzi.com/clases/estadistica-descriptiva/           |
+| ------------- | ------------------------------------------------------------ |
+| **Course:**   | Curso de Matemáticas para Data Science: Estadística Descriptiva |
+| **Teacher:**  | Francisco Camacho                                            |
+| **Notebook:** | [Personal deepnote](https://deepnote.com/project/curso-estadistica-descriptiva-2021-Duplicate-7uTueWZDQ-aKrq24bLdf2A) |
 
 
 ## Notes

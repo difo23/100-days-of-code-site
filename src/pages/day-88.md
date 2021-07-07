@@ -1,5 +1,5 @@
 ---
-title: "Cursos Estadísticas descriptivas - 8"
+title: "Exploración visual de los datos"
 day: "88"
 publishDate: "2021-07-30"
 thumbnailImage: "../images/day-83.png"

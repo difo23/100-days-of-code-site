@@ -1,5 +1,5 @@
 ---
-title: "Cursos Estadísticas descriptivas - 5"
+title: "Medidas de dispersión"
 day: "85"
 publishDate: "2021-07-27"
 thumbnailImage: "../images/day-80.png"

@@ -1,5 +1,5 @@
 ---
-title: "Cursos Estadísticas descriptivas - 7"
+title: "Medidas de dispersión en Python"
 day: "87"
 publishDate: "2021-07-29"
 thumbnailImage: "../images/day-84.png"

@@ -1,5 +1,5 @@
 ---
-title: "Cursos Estadísticas descriptivas -3"
+title: "Tipos de datos en estadística inferencial"
 day: "83"
 publishDate: "2021-07-25"
 thumbnailImage: "../images/day-83.png"
@@ -9,13 +9,13 @@ draft: false
 
 ---
 
-## ¿Cómo usar Deepnote?
+## Tipos de datos en estadística inferencial
 
 | Source:       | https://platzi.com/clases/estadistica-descriptiva/           |
-  | ------------- | ------------------------------------------------------------ |
-  | **Course:**   | Curso de Matemáticas para Data Science: Estadística Descriptiva |
-  | **Teacher:**  | Francisco Camacho                                            |
-  | **Notebook:** | [Personal deepnote](https://deepnote.com/project/curso-estadistica-descriptiva-2021-Duplicate-7uTueWZDQ-aKrq24bLdf2A) |
+| ------------- | ------------------------------------------------------------ |
+| **Course:**   | Curso de Matemáticas para Data Science: Estadística Descriptiva |
+| **Teacher:**  | Francisco Camacho                                            |
+| **Notebook:** | [Personal deepnote](https://deepnote.com/project/curso-estadistica-descriptiva-2021-Duplicate-7uTueWZDQ-aKrq24bLdf2A) |
 
 
 ## Notes 

@@ -1,5 +1,5 @@
 ---
-title: "Cursos Estadísticas descriptivas - 4"
+title: "Medidas de tendencia central"
 day: "84"
 publishDate: "2021-07-26"
 thumbnailImage: "../images/day-84.png"
@@ -12,10 +12,10 @@ draft: false
 ## Medidas de tendencia central en Python
 
 | Source:       | https://platzi.com/clases/estadistica-descriptiva/           |
-  | ------------- | ------------------------------------------------------------ |
-  | **Course:**   | Curso de Matemáticas para Data Science: Estadística Descriptiva |
-  | **Teacher:**  | Francisco Camacho                                            |
-  | **Notebook:** | [Personal deepnote](https://deepnote.com/project/curso-estadistica-descriptiva-2021-Duplicate-7uTueWZDQ-aKrq24bLdf2A) |
+| ------------- | ------------------------------------------------------------ |
+| **Course:**   | Curso de Matemáticas para Data Science: Estadística Descriptiva |
+| **Teacher:**  | Francisco Camacho                                            |
+| **Notebook:** | [Personal deepnote](https://deepnote.com/project/curso-estadistica-descriptiva-2021-Duplicate-7uTueWZDQ-aKrq24bLdf2A) |
 
 
 ## Notes

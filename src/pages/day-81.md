@@ -1,5 +1,5 @@
 ---
-title: "Cursos Estadísticas descriptivas - 1"
+title: "Análisis exploratorio"
 day: "81"
 publishDate: "2021-07-22"
 thumbnailImage: "../images/day-81.png"

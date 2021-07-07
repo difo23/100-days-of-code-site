@@ -1,5 +1,5 @@
 ---
-title: "Remove Duplicate"
+title: "Interview success"
 day: "71"
 publishDate: "2021-06-15"
 thumbnailImage: "../images/day-71.png"

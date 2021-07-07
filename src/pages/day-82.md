@@ -1,5 +1,5 @@
 ---
-title: "Cursos Estadísticas descriptivas - 2"
+title: "¿Cómo usar Deepnote?"
 day: "82"
 publishDate: "2021-07-24"
 thumbnailImage: "../images/day-82.png"
@@ -12,10 +12,10 @@ draft: false
 ## ¿Cómo usar Deepnote?
 
 | Source:       | https://platzi.com/clases/estadistica-descriptiva/           |
-  | ------------- | ------------------------------------------------------------ |
-  | **Course:**   | Curso de Matemáticas para Data Science: Estadística Descriptiva |
-  | **Teacher:**  | Francisco Camacho                                            |
-  | **Notebook:** | [Personal deepnote](https://deepnote.com/project/curso-estadistica-descriptiva-2021-Duplicate-7uTueWZDQ-aKrq24bLdf2A) |
+| ------------- | ------------------------------------------------------------ |
+| **Course:**   | Curso de Matemáticas para Data Science: Estadística Descriptiva |
+| **Teacher:**  | Francisco Camacho                                            |
+| **Notebook:** | [Personal deepnote](https://deepnote.com/project/curso-estadistica-descriptiva-2021-Duplicate-7uTueWZDQ-aKrq24bLdf2A) |
 
 
 ## Notes 

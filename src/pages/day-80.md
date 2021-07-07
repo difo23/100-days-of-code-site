@@ -1,5 +1,5 @@
 ---
-title: "Cursos Estadísticas descriptivas - 0"
+title: "Descriptiva vs inferencial"
 day: "80"
 publishDate: "2021-07-21"
 thumbnailImage: "../images/day-80.png"
