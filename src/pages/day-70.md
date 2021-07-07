@@ -1,5 +1,5 @@
 ---
-title: "Remove Duplicate"
+title: "What makes a great pitch"
 day: "70"
 publishDate: "2021-06-14"
 thumbnailImage: "../images/day-70.png"

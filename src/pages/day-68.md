@@ -1,5 +1,5 @@
 ---
-title: "Remove Duplicate"
+title: "Introductions in interview"
 day: "68"
 publishDate: "2021-06-13"
 thumbnailImage: "../images/day-68.png"

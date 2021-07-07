@@ -1,5 +1,5 @@
 ---
-title: "Remove Duplicate"
+title: "Polish your portfolio"
 day: "66"
 publishDate: "2021-06-12"
 thumbnailImage: "../images/day-66.png"
